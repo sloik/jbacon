@@ -1,0 +1,1104 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C33DD10A1CC027C1891C7D3 /* Pods_jBacon_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7437860944A1355163948FB /* Pods_jBacon_Tests.framework */; };
+		AB409F5C5E8E847DE33E8FA3 /* Pods_jBacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C2834E060991FF7A73661E7 /* Pods_jBacon.framework */; };
+		BA05DD031A87F53A00F3B5FF /* JIABluetoothDeviceScannerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA05DD021A87F53A00F3B5FF /* JIABluetoothDeviceScannerTests.m */; };
+		BA13F54F1A84E86A00187186 /* JIABaconInformationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA13F54E1A84E86A00187186 /* JIABaconInformationTests.m */; };
+		BB02391E1A02D50100507F4B /* JIAConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02391D1A02D50100507F4B /* JIAConstants.m */; };
+		BB0239221A02D72F00507F4B /* UIColor+JIABaconColors.m in Sources */ = {isa = PBXBuildFile; fileRef = BB0239211A02D72F00507F4B /* UIColor+JIABaconColors.m */; };
+		BB02392C1A02EBD400507F4B /* JIABaconInformationProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02392B1A02EBD400507F4B /* JIABaconInformationProvider.m */; };
+		BB02392F1A02F0E900507F4B /* JIABluetoothDeviceScanner.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02392E1A02F0E900507F4B /* JIABluetoothDeviceScanner.m */; };
+		BB0239311A02F2AC00507F4B /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB0239301A02F2AC00507F4B /* CoreBluetooth.framework */; };
+		BB2CF4811A1784D1001B768E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB2CF4801A1784D1001B768E /* CoreLocation.framework */; };
+		BB42DB9E1A718AD500DF26B9 /* JIABaconInformationProviderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB42DB9D1A718AD500DF26B9 /* JIABaconInformationProviderTests.m */; };
+		BB433BE71A2CF3DD005AFE22 /* ButchersListTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BB433BE61A2CF3DD005AFE22 /* ButchersListTVC.m */; };
+		BB433BEA1A2CF93E005AFE22 /* ButchersPersistance.m in Sources */ = {isa = PBXBuildFile; fileRef = BB433BE91A2CF93E005AFE22 /* ButchersPersistance.m */; };
+		BB433BED1A2CF9A4005AFE22 /* JIAButcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BB433BEC1A2CF9A4005AFE22 /* JIAButcher.m */; };
+		BB5EE8CF1A8BB7D300F31E16 /* ButchersListTVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5EE8CE1A8BB7D300F31E16 /* ButchersListTVCTests.m */; };
+		BB5EE8D51A8BCC6B00F31E16 /* OldRecepiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5EE8D41A8BCC6B00F31E16 /* OldRecepiesTests.m */; };
+		BB5EE8D81A8BDE4300F31E16 /* BaconRadarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB5EE8D71A8BDE4300F31E16 /* BaconRadarTests.m */; };
+		BB7A4CE51A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7A4CE41A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.m */; };
+		BB7A4CE71A5BEE2F0024D0D7 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB7A4CE61A5BEE2F0024D0D7 /* StoreKit.framework */; };
+		BB7A4CEA1A5C164E0024D0D7 /* JIABaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7A4CE91A5C164E0024D0D7 /* JIABaseViewController.m */; };
+		BB7A4CED1A5C16760024D0D7 /* JIABaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB7A4CEC1A5C16760024D0D7 /* JIABaseTableViewController.m */; };
+		BB85B7D61A0805BD00B45DFD /* AddBuster.m in Sources */ = {isa = PBXBuildFile; fileRef = BB85B7D51A0805BD00B45DFD /* AddBuster.m */; };
+		BB89BD4619CF230A0066BBED /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BB89BD4519CF230A0066BBED /* iAd.framework */; };
+		BB89BD5319CF58880066BBED /* BaconRadar.m in Sources */ = {isa = PBXBuildFile; fileRef = BB89BD5219CF58880066BBED /* BaconRadar.m */; };
+		BB89BD5619CF589F0066BBED /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB89BD5519CF589F0066BBED /* SettingsViewController.m */; };
+		BB939D261A646DF60090E2E2 /* AddButcherRow.m in Sources */ = {isa = PBXBuildFile; fileRef = BB939D251A646DF60090E2E2 /* AddButcherRow.m */; };
+		BB96DE241A13F1C700D610BB /* AddButcherInputCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BB96DE231A13F1C700D610BB /* AddButcherInputCell.m */; };
+		BB9714D519CEF67500B7A48B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9714D419CEF67400B7A48B /* main.m */; };
+		BB9714D819CEF67500B7A48B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BB9714D719CEF67500B7A48B /* AppDelegate.m */; };
+		BB9714DE19CEF67500B7A48B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB9714DC19CEF67500B7A48B /* Main.storyboard */; };
+		BB9714E019CEF67500B7A48B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB9714DF19CEF67500B7A48B /* Images.xcassets */; };
+		BB9714E319CEF67500B7A48B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB9714E119CEF67500B7A48B /* LaunchScreen.xib */; };
+		BBAB33B51A38D16B000F8DD1 /* NSString+JIAUUIDValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAB33B41A38D16B000F8DD1 /* NSString+JIAUUIDValidation.m */; };
+		BBB4B09B1A167B6300E8F7C4 /* initialBaconsIDs.plist in Resources */ = {isa = PBXBuildFile; fileRef = BBB4B09A1A167B6300E8F7C4 /* initialBaconsIDs.plist */; };
+		BBBB0CA81A0A9B0E00B06F7C /* OldRecepies.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0CA71A0A9B0E00B06F7C /* OldRecepies.m */; };
+		BBBB0CAC1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0CAB1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.m */; };
+		BBBB0CAF1A0A9D3400B06F7C /* JIAOldRecepie.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0CAE1A0A9D3400B06F7C /* JIAOldRecepie.m */; };
+		BBBB0CB61A0AB81000B06F7C /* OldRecepieHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0CB51A0AB81000B06F7C /* OldRecepieHeaderCell.m */; };
+		BBBB0CB91A0AB84200B06F7C /* OldRecepieFullInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBB0CB81A0AB84200B06F7C /* OldRecepieFullInfoCell.m */; };
+		BBBDD9811A06355700D65A4D /* BaconInformationHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD9801A06355700D65A4D /* BaconInformationHeader.m */; };
+		BBBDD9851A065E9B00D65A4D /* FryBacon.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD9841A065E9B00D65A4D /* FryBacon.m */; };
+		BBBDD9891A06613400D65A4D /* FryBaconHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD9881A06613400D65A4D /* FryBaconHeaderCell.m */; };
+		BBBDD98C1A06614D00D65A4D /* FryBaconFooterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD98B1A06614D00D65A4D /* FryBaconFooterCell.m */; };
+		BBBDD9901A067B3600D65A4D /* BaconBrotcaster.m in Sources */ = {isa = PBXBuildFile; fileRef = BBBDD98F1A067B3600D65A4D /* BaconBrotcaster.m */; };
+		BBD3867D1A04EBC200B8C284 /* JIABaconInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD3867C1A04EBC200B8C284 /* JIABaconInformation.m */; };
+		BBDC56BC1A8A99290007182D /* JIABaconInformationTVCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBDC56BB1A8A99290007182D /* JIABaconInformationTVCTests.m */; };
+		BBE3262E1A8166C4000C2055 /* AddButcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE3262D1A8166C4000C2055 /* AddButcherTests.m */; };
+		BBE5372E1A896146005BC078 /* BaconBrotcasterTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE5372D1A896146005BC078 /* BaconBrotcasterTests.m */; };
+		BBE6B8E61A40E14D00463BF9 /* JIAAlertViewControllerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE6B8E51A40E14D00463BF9 /* JIAAlertViewControllerFactory.m */; };
+		BBE81C291A0FA7A60005F5CC /* AddButcher.m in Sources */ = {isa = PBXBuildFile; fileRef = BBE81C281A0FA7A60005F5CC /* AddButcher.m */; };
+		BBEBAE261A420E3B00504DD2 /* JIAFryBaconValidationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEBAE251A420E3B00504DD2 /* JIAFryBaconValidationResult.m */; };
+		BBF0A0B31A0428D5008182C0 /* JIAQualityView.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF0A0B21A0428D5008182C0 /* JIAQualityView.m */; };
+		BBF0A0B61A0433A3008182C0 /* JIABaconQualityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF0A0B51A0433A3008182C0 /* JIABaconQualityCell.m */; };
+		BBF5BB941A054E1600353C91 /* JIABaconHeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5BB931A054E1600353C91 /* JIABaconHeaderCell.m */; };
+		BBF5BB981A05970100353C91 /* JIABaconInformationTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BBF5BB971A05970100353C91 /* JIABaconInformationTVC.m */; };
+		BBFAE1EE1A6DAAEE0025B9E4 /* AppDelegateTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBFAE1ED1A6DAAEE0025B9E4 /* AppDelegateTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB0239131A02B9AA00507F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BB9714C719CEF67400B7A48B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB9714CE19CEF67400B7A48B;
+			remoteInfo = jBacon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0FDBC1B53C377E916957CB12 /* Pods-jBacon Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jBacon Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jBacon Tests/Pods-jBacon Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		24216A397CC82907D32B0B27 /* Pods-jBacon Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jBacon Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-jBacon Tests/Pods-jBacon Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2C2834E060991FF7A73661E7 /* Pods_jBacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jBacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		510FF1B6A6832A6E0DF57744 /* Pods-jBacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jBacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-jBacon/Pods-jBacon.debug.xcconfig"; sourceTree = "<group>"; };
+		B0324FF05DF5892722E0EF44 /* Pods-jBacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-jBacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-jBacon/Pods-jBacon.release.xcconfig"; sourceTree = "<group>"; };
+		BA05DD021A87F53A00F3B5FF /* JIABluetoothDeviceScannerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABluetoothDeviceScannerTests.m; sourceTree = "<group>"; };
+		BA13F54E1A84E86A00187186 /* JIABaconInformationTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformationTests.m; sourceTree = "<group>"; };
+		BB02390D1A02B9AA00507F4B /* jBacon Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "jBacon Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0239101A02B9AA00507F4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB02391C1A02D50100507F4B /* JIAConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAConstants.h; sourceTree = "<group>"; };
+		BB02391D1A02D50100507F4B /* JIAConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAConstants.m; sourceTree = "<group>"; };
+		BB0239201A02D72F00507F4B /* UIColor+JIABaconColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JIABaconColors.h"; sourceTree = "<group>"; };
+		BB0239211A02D72F00507F4B /* UIColor+JIABaconColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JIABaconColors.m"; sourceTree = "<group>"; };
+		BB02392A1A02EBD400507F4B /* JIABaconInformationProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaconInformationProvider.h; sourceTree = "<group>"; };
+		BB02392B1A02EBD400507F4B /* JIABaconInformationProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformationProvider.m; sourceTree = "<group>"; };
+		BB02392D1A02F0E900507F4B /* JIABluetoothDeviceScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABluetoothDeviceScanner.h; sourceTree = "<group>"; };
+		BB02392E1A02F0E900507F4B /* JIABluetoothDeviceScanner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABluetoothDeviceScanner.m; sourceTree = "<group>"; };
+		BB0239301A02F2AC00507F4B /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		BB2CF4801A1784D1001B768E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BB42DB9D1A718AD500DF26B9 /* JIABaconInformationProviderTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformationProviderTests.m; sourceTree = "<group>"; };
+		BB433BE51A2CF3DD005AFE22 /* ButchersListTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButchersListTVC.h; sourceTree = "<group>"; };
+		BB433BE61A2CF3DD005AFE22 /* ButchersListTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButchersListTVC.m; sourceTree = "<group>"; };
+		BB433BE81A2CF93E005AFE22 /* ButchersPersistance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButchersPersistance.h; sourceTree = "<group>"; };
+		BB433BE91A2CF93E005AFE22 /* ButchersPersistance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButchersPersistance.m; sourceTree = "<group>"; };
+		BB433BEB1A2CF9A4005AFE22 /* JIAButcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAButcher.h; sourceTree = "<group>"; };
+		BB433BEC1A2CF9A4005AFE22 /* JIAButcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAButcher.m; sourceTree = "<group>"; };
+		BB5EE8CE1A8BB7D300F31E16 /* ButchersListTVCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButchersListTVCTests.m; sourceTree = "<group>"; };
+		BB5EE8D41A8BCC6B00F31E16 /* OldRecepiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldRecepiesTests.m; sourceTree = "<group>"; };
+		BB5EE8D71A8BDE4300F31E16 /* BaconRadarTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconRadarTests.m; sourceTree = "<group>"; };
+		BB7A4CE31A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAInAppPurchaseConstants.h; sourceTree = "<group>"; };
+		BB7A4CE41A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAInAppPurchaseConstants.m; sourceTree = "<group>"; };
+		BB7A4CE61A5BEE2F0024D0D7 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		BB7A4CE81A5C164E0024D0D7 /* JIABaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaseViewController.h; sourceTree = "<group>"; };
+		BB7A4CE91A5C164E0024D0D7 /* JIABaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaseViewController.m; sourceTree = "<group>"; };
+		BB7A4CEB1A5C16760024D0D7 /* JIABaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaseTableViewController.h; sourceTree = "<group>"; };
+		BB7A4CEC1A5C16760024D0D7 /* JIABaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaseTableViewController.m; sourceTree = "<group>"; };
+		BB85B7D41A0805BD00B45DFD /* AddBuster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddBuster.h; sourceTree = "<group>"; };
+		BB85B7D51A0805BD00B45DFD /* AddBuster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddBuster.m; sourceTree = "<group>"; };
+		BB89BD4519CF230A0066BBED /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		BB89BD5119CF58880066BBED /* BaconRadar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaconRadar.h; sourceTree = "<group>"; };
+		BB89BD5219CF58880066BBED /* BaconRadar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconRadar.m; sourceTree = "<group>"; };
+		BB89BD5419CF589F0066BBED /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		BB89BD5519CF589F0066BBED /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		BB939D241A646DF60090E2E2 /* AddButcherRow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButcherRow.h; sourceTree = "<group>"; };
+		BB939D251A646DF60090E2E2 /* AddButcherRow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButcherRow.m; sourceTree = "<group>"; };
+		BB96DE221A13F1C700D610BB /* AddButcherInputCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButcherInputCell.h; sourceTree = "<group>"; };
+		BB96DE231A13F1C700D610BB /* AddButcherInputCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButcherInputCell.m; sourceTree = "<group>"; };
+		BB9714CF19CEF67400B7A48B /* jBacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = jBacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB9714D319CEF67400B7A48B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB9714D419CEF67400B7A48B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BB9714D619CEF67500B7A48B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BB9714D719CEF67500B7A48B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BB9714DD19CEF67500B7A48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BB9714DF19CEF67500B7A48B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BB9714E219CEF67500B7A48B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BBAB33B31A38D16B000F8DD1 /* NSString+JIAUUIDValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JIAUUIDValidation.h"; sourceTree = "<group>"; };
+		BBAB33B41A38D16B000F8DD1 /* NSString+JIAUUIDValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JIAUUIDValidation.m"; sourceTree = "<group>"; };
+		BBB4B09A1A167B6300E8F7C4 /* initialBaconsIDs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = initialBaconsIDs.plist; sourceTree = "<group>"; };
+		BBBB0CA61A0A9B0E00B06F7C /* OldRecepies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldRecepies.h; sourceTree = "<group>"; };
+		BBBB0CA71A0A9B0E00B06F7C /* OldRecepies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldRecepies.m; sourceTree = "<group>"; };
+		BBBB0CAA1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAOldRecepiesInformationManager.h; sourceTree = "<group>"; };
+		BBBB0CAB1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAOldRecepiesInformationManager.m; sourceTree = "<group>"; };
+		BBBB0CAD1A0A9D3400B06F7C /* JIAOldRecepie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAOldRecepie.h; sourceTree = "<group>"; };
+		BBBB0CAE1A0A9D3400B06F7C /* JIAOldRecepie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAOldRecepie.m; sourceTree = "<group>"; };
+		BBBB0CB41A0AB81000B06F7C /* OldRecepieHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldRecepieHeaderCell.h; sourceTree = "<group>"; };
+		BBBB0CB51A0AB81000B06F7C /* OldRecepieHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldRecepieHeaderCell.m; sourceTree = "<group>"; };
+		BBBB0CB71A0AB84200B06F7C /* OldRecepieFullInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OldRecepieFullInfoCell.h; sourceTree = "<group>"; };
+		BBBB0CB81A0AB84200B06F7C /* OldRecepieFullInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OldRecepieFullInfoCell.m; sourceTree = "<group>"; };
+		BBBDD97F1A06355700D65A4D /* BaconInformationHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaconInformationHeader.h; sourceTree = "<group>"; };
+		BBBDD9801A06355700D65A4D /* BaconInformationHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconInformationHeader.m; sourceTree = "<group>"; };
+		BBBDD9831A065E9B00D65A4D /* FryBacon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryBacon.h; sourceTree = "<group>"; };
+		BBBDD9841A065E9B00D65A4D /* FryBacon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryBacon.m; sourceTree = "<group>"; };
+		BBBDD9871A06613400D65A4D /* FryBaconHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryBaconHeaderCell.h; sourceTree = "<group>"; };
+		BBBDD9881A06613400D65A4D /* FryBaconHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryBaconHeaderCell.m; sourceTree = "<group>"; };
+		BBBDD98A1A06614D00D65A4D /* FryBaconFooterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FryBaconFooterCell.h; sourceTree = "<group>"; };
+		BBBDD98B1A06614D00D65A4D /* FryBaconFooterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FryBaconFooterCell.m; sourceTree = "<group>"; };
+		BBBDD98E1A067B3600D65A4D /* BaconBrotcaster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaconBrotcaster.h; sourceTree = "<group>"; };
+		BBBDD98F1A067B3600D65A4D /* BaconBrotcaster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconBrotcaster.m; sourceTree = "<group>"; };
+		BBD3867B1A04EBC200B8C284 /* JIABaconInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaconInformation.h; sourceTree = "<group>"; };
+		BBD3867C1A04EBC200B8C284 /* JIABaconInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformation.m; sourceTree = "<group>"; };
+		BBDC56BB1A8A99290007182D /* JIABaconInformationTVCTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformationTVCTests.m; sourceTree = "<group>"; };
+		BBE3262D1A8166C4000C2055 /* AddButcherTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButcherTests.m; sourceTree = "<group>"; };
+		BBE5372D1A896146005BC078 /* BaconBrotcasterTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaconBrotcasterTests.m; sourceTree = "<group>"; };
+		BBE6B8E41A40E14D00463BF9 /* JIAAlertViewControllerFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAAlertViewControllerFactory.h; sourceTree = "<group>"; };
+		BBE6B8E51A40E14D00463BF9 /* JIAAlertViewControllerFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAAlertViewControllerFactory.m; sourceTree = "<group>"; };
+		BBE81C271A0FA7A60005F5CC /* AddButcher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddButcher.h; sourceTree = "<group>"; };
+		BBE81C281A0FA7A60005F5CC /* AddButcher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddButcher.m; sourceTree = "<group>"; };
+		BBEBAE241A420E3B00504DD2 /* JIAFryBaconValidationResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAFryBaconValidationResult.h; sourceTree = "<group>"; };
+		BBEBAE251A420E3B00504DD2 /* JIAFryBaconValidationResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAFryBaconValidationResult.m; sourceTree = "<group>"; };
+		BBF0A0B11A0428D5008182C0 /* JIAQualityView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIAQualityView.h; sourceTree = "<group>"; };
+		BBF0A0B21A0428D5008182C0 /* JIAQualityView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIAQualityView.m; sourceTree = "<group>"; };
+		BBF0A0B41A0433A3008182C0 /* JIABaconQualityCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaconQualityCell.h; sourceTree = "<group>"; };
+		BBF0A0B51A0433A3008182C0 /* JIABaconQualityCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconQualityCell.m; sourceTree = "<group>"; };
+		BBF5BB921A054E1600353C91 /* JIABaconHeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaconHeaderCell.h; sourceTree = "<group>"; };
+		BBF5BB931A054E1600353C91 /* JIABaconHeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconHeaderCell.m; sourceTree = "<group>"; };
+		BBF5BB961A05970100353C91 /* JIABaconInformationTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JIABaconInformationTVC.h; sourceTree = "<group>"; };
+		BBF5BB971A05970100353C91 /* JIABaconInformationTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JIABaconInformationTVC.m; sourceTree = "<group>"; };
+		BBFAE1ED1A6DAAEE0025B9E4 /* AppDelegateTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegateTests.m; sourceTree = "<group>"; };
+		C7437860944A1355163948FB /* Pods_jBacon_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_jBacon_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BB02390A1A02B9AA00507F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C33DD10A1CC027C1891C7D3 /* Pods_jBacon_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9714CC19CEF67400B7A48B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB89BD4619CF230A0066BBED /* iAd.framework in Frameworks */,
+				BB0239311A02F2AC00507F4B /* CoreBluetooth.framework in Frameworks */,
+				BB2CF4811A1784D1001B768E /* CoreLocation.framework in Frameworks */,
+				BB7A4CE71A5BEE2F0024D0D7 /* StoreKit.framework in Frameworks */,
+				AB409F5C5E8E847DE33E8FA3 /* Pods_jBacon.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5A5B6DADFCBF36F86F8899CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB89BD4519CF230A0066BBED /* iAd.framework */,
+				BB0239301A02F2AC00507F4B /* CoreBluetooth.framework */,
+				BB2CF4801A1784D1001B768E /* CoreLocation.framework */,
+				BB7A4CE61A5BEE2F0024D0D7 /* StoreKit.framework */,
+				2C2834E060991FF7A73661E7 /* Pods_jBacon.framework */,
+				C7437860944A1355163948FB /* Pods_jBacon_Tests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4EA41512628269F61A0A907 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				510FF1B6A6832A6E0DF57744 /* Pods-jBacon.debug.xcconfig */,
+				B0324FF05DF5892722E0EF44 /* Pods-jBacon.release.xcconfig */,
+				0FDBC1B53C377E916957CB12 /* Pods-jBacon Tests.debug.xcconfig */,
+				24216A397CC82907D32B0B27 /* Pods-jBacon Tests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BB02390E1A02B9AA00507F4B /* jBacon Tests */ = {
+			isa = PBXGroup;
+			children = (
+				BB5EE8CD1A8BB79600F31E16 /* ButcherList */,
+				BB42DB9C1A718AC000DF26B9 /* BLE */,
+				BBE326291A816296000C2055 /* UI */,
+				BB02390F1A02B9AA00507F4B /* Supporting Files */,
+				BBFAE1ED1A6DAAEE0025B9E4 /* AppDelegateTests.m */,
+			);
+			path = "jBacon Tests";
+			sourceTree = "<group>";
+		};
+		BB02390F1A02B9AA00507F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB0239101A02B9AA00507F4B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BB0239181A02D2FF00507F4B /* RadarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB0239191A02D46000507F4B /* Cells */,
+				BB89BD5119CF58880066BBED /* BaconRadar.h */,
+				BB89BD5219CF58880066BBED /* BaconRadar.m */,
+			);
+			path = RadarViewController;
+			sourceTree = "<group>";
+		};
+		BB0239191A02D46000507F4B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0A0B41A0433A3008182C0 /* JIABaconQualityCell.h */,
+				BBF0A0B51A0433A3008182C0 /* JIABaconQualityCell.m */,
+				BBF5BB921A054E1600353C91 /* JIABaconHeaderCell.h */,
+				BBF5BB931A054E1600353C91 /* JIABaconHeaderCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB02391A1A02D47100507F4B /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				BBF0A0B11A0428D5008182C0 /* JIAQualityView.h */,
+				BBF0A0B21A0428D5008182C0 /* JIAQualityView.m */,
+				BB85B7D41A0805BD00B45DFD /* AddBuster.h */,
+				BB85B7D51A0805BD00B45DFD /* AddBuster.m */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		BB02391B1A02D48700507F4B /* Utilitis */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB0CB01A0A9D3E00B06F7C /* Models */,
+				BB02391C1A02D50100507F4B /* JIAConstants.h */,
+				BB02391D1A02D50100507F4B /* JIAConstants.m */,
+				BBBB0CAA1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.h */,
+				BBBB0CAB1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.m */,
+				BB433BEB1A2CF9A4005AFE22 /* JIAButcher.h */,
+				BB433BEC1A2CF9A4005AFE22 /* JIAButcher.m */,
+				BB433BE81A2CF93E005AFE22 /* ButchersPersistance.h */,
+				BB433BE91A2CF93E005AFE22 /* ButchersPersistance.m */,
+				BBAB33B31A38D16B000F8DD1 /* NSString+JIAUUIDValidation.h */,
+				BBAB33B41A38D16B000F8DD1 /* NSString+JIAUUIDValidation.m */,
+				BBE6B8E41A40E14D00463BF9 /* JIAAlertViewControllerFactory.h */,
+				BBE6B8E51A40E14D00463BF9 /* JIAAlertViewControllerFactory.m */,
+				BBEBAE241A420E3B00504DD2 /* JIAFryBaconValidationResult.h */,
+				BBEBAE251A420E3B00504DD2 /* JIAFryBaconValidationResult.m */,
+				BB7A4CE31A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.h */,
+				BB7A4CE41A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.m */,
+			);
+			path = Utilitis;
+			sourceTree = "<group>";
+		};
+		BB02391F1A02D6EC00507F4B /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				BB0239201A02D72F00507F4B /* UIColor+JIABaconColors.h */,
+				BB0239211A02D72F00507F4B /* UIColor+JIABaconColors.m */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		BB0239291A02E77900507F4B /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				BB02392A1A02EBD400507F4B /* JIABaconInformationProvider.h */,
+				BB02392B1A02EBD400507F4B /* JIABaconInformationProvider.m */,
+				BB02392D1A02F0E900507F4B /* JIABluetoothDeviceScanner.h */,
+				BB02392E1A02F0E900507F4B /* JIABluetoothDeviceScanner.m */,
+				BBD3867B1A04EBC200B8C284 /* JIABaconInformation.h */,
+				BBD3867C1A04EBC200B8C284 /* JIABaconInformation.m */,
+				BBB4B09A1A167B6300E8F7C4 /* initialBaconsIDs.plist */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		BB42DB9C1A718AC000DF26B9 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				BA13F54E1A84E86A00187186 /* JIABaconInformationTests.m */,
+				BB42DB9D1A718AD500DF26B9 /* JIABaconInformationProviderTests.m */,
+				BA05DD021A87F53A00F3B5FF /* JIABluetoothDeviceScannerTests.m */,
+			);
+			name = BLE;
+			sourceTree = "<group>";
+		};
+		BB433BE31A2CF246005AFE22 /* ButchersList */ = {
+			isa = PBXGroup;
+			children = (
+				BB433BE41A2CF246005AFE22 /* Cells */,
+				BB433BE51A2CF3DD005AFE22 /* ButchersListTVC.h */,
+				BB433BE61A2CF3DD005AFE22 /* ButchersListTVC.m */,
+			);
+			path = ButchersList;
+			sourceTree = "<group>";
+		};
+		BB433BE41A2CF246005AFE22 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB5EE8CD1A8BB79600F31E16 /* ButcherList */ = {
+			isa = PBXGroup;
+			children = (
+				BB5EE8CE1A8BB7D300F31E16 /* ButchersListTVCTests.m */,
+			);
+			name = ButcherList;
+			sourceTree = "<group>";
+		};
+		BB5EE8D31A8BCC4300F31E16 /* OldRecepies */ = {
+			isa = PBXGroup;
+			children = (
+				BB5EE8D41A8BCC6B00F31E16 /* OldRecepiesTests.m */,
+			);
+			name = OldRecepies;
+			sourceTree = "<group>";
+		};
+		BB5EE8D61A8BDE2400F31E16 /* RadarViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB5EE8D71A8BDE4300F31E16 /* BaconRadarTests.m */,
+			);
+			name = RadarViewController;
+			sourceTree = "<group>";
+		};
+		BB85B7D21A0801F800B45DFD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BB433BE31A2CF246005AFE22 /* ButchersList */,
+				BBE81C261A0FA7410005F5CC /* AddButcher */,
+				BBBB0CA51A0A9ADF00B06F7C /* OldRecepies */,
+				BB85B7D31A08022A00B45DFD /* SettingsViewController */,
+				BB0239181A02D2FF00507F4B /* RadarViewController */,
+				BBBDD9821A065E2D00D65A4D /* FryBacon */,
+				BBBDD98D1A067B3600D65A4D /* BaconBrotcaster */,
+				BBF5BB951A0596C100353C91 /* BaconInformationViewController */,
+				BB7A4CE81A5C164E0024D0D7 /* JIABaseViewController.h */,
+				BB7A4CE91A5C164E0024D0D7 /* JIABaseViewController.m */,
+				BB7A4CEB1A5C16760024D0D7 /* JIABaseTableViewController.h */,
+				BB7A4CEC1A5C16760024D0D7 /* JIABaseTableViewController.m */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BB85B7D31A08022A00B45DFD /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BB89BD5419CF589F0066BBED /* SettingsViewController.h */,
+				BB89BD5519CF589F0066BBED /* SettingsViewController.m */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		BB96DE211A13F15B00D610BB /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BB96DE221A13F1C700D610BB /* AddButcherInputCell.h */,
+				BB96DE231A13F1C700D610BB /* AddButcherInputCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BB9714C619CEF67400B7A48B = {
+			isa = PBXGroup;
+			children = (
+				BB9714D119CEF67400B7A48B /* jBacon */,
+				BB02390E1A02B9AA00507F4B /* jBacon Tests */,
+				BB9714D019CEF67400B7A48B /* Products */,
+				5A5B6DADFCBF36F86F8899CE /* Frameworks */,
+				B4EA41512628269F61A0A907 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		BB9714D019CEF67400B7A48B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB9714CF19CEF67400B7A48B /* jBacon.app */,
+				BB02390D1A02B9AA00507F4B /* jBacon Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BB9714D119CEF67400B7A48B /* jBacon */ = {
+			isa = PBXGroup;
+			children = (
+				BB9714D619CEF67500B7A48B /* AppDelegate.h */,
+				BB9714D719CEF67500B7A48B /* AppDelegate.m */,
+				BB9714DF19CEF67500B7A48B /* Images.xcassets */,
+				BB85B7D21A0801F800B45DFD /* UI */,
+				BB0239291A02E77900507F4B /* BLE */,
+				BB9714E119CEF67500B7A48B /* LaunchScreen.xib */,
+				BB9714DC19CEF67500B7A48B /* Main.storyboard */,
+				BB02391F1A02D6EC00507F4B /* Styles */,
+				BB9714D219CEF67400B7A48B /* Supporting Files */,
+				BB02391A1A02D47100507F4B /* UIComponents */,
+				BB02391B1A02D48700507F4B /* Utilitis */,
+			);
+			path = jBacon;
+			sourceTree = "<group>";
+		};
+		BB9714D219CEF67400B7A48B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BB9714D319CEF67400B7A48B /* Info.plist */,
+				BB9714D419CEF67400B7A48B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BBBB0CA51A0A9ADF00B06F7C /* OldRecepies */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB0CA91A0A9B2A00B06F7C /* Cells */,
+				BBBB0CA61A0A9B0E00B06F7C /* OldRecepies.h */,
+				BBBB0CA71A0A9B0E00B06F7C /* OldRecepies.m */,
+			);
+			path = OldRecepies;
+			sourceTree = "<group>";
+		};
+		BBBB0CA91A0A9B2A00B06F7C /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB0CB41A0AB81000B06F7C /* OldRecepieHeaderCell.h */,
+				BBBB0CB51A0AB81000B06F7C /* OldRecepieHeaderCell.m */,
+				BBBB0CB71A0AB84200B06F7C /* OldRecepieFullInfoCell.h */,
+				BBBB0CB81A0AB84200B06F7C /* OldRecepieFullInfoCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBBB0CB01A0A9D3E00B06F7C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BBBB0CAD1A0A9D3400B06F7C /* JIAOldRecepie.h */,
+				BBBB0CAE1A0A9D3400B06F7C /* JIAOldRecepie.m */,
+				BB939D241A646DF60090E2E2 /* AddButcherRow.h */,
+				BB939D251A646DF60090E2E2 /* AddButcherRow.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BBBDD97E1A06351900D65A4D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD97F1A06355700D65A4D /* BaconInformationHeader.h */,
+				BBBDD9801A06355700D65A4D /* BaconInformationHeader.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		BBBDD9821A065E2D00D65A4D /* FryBacon */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD9861A065F2000D65A4D /* Cell */,
+				BBBDD9831A065E9B00D65A4D /* FryBacon.h */,
+				BBBDD9841A065E9B00D65A4D /* FryBacon.m */,
+			);
+			path = FryBacon;
+			sourceTree = "<group>";
+		};
+		BBBDD9861A065F2000D65A4D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD9871A06613400D65A4D /* FryBaconHeaderCell.h */,
+				BBBDD9881A06613400D65A4D /* FryBaconHeaderCell.m */,
+				BBBDD98A1A06614D00D65A4D /* FryBaconFooterCell.h */,
+				BBBDD98B1A06614D00D65A4D /* FryBaconFooterCell.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		BBBDD98D1A067B3600D65A4D /* BaconBrotcaster */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD98E1A067B3600D65A4D /* BaconBrotcaster.h */,
+				BBBDD98F1A067B3600D65A4D /* BaconBrotcaster.m */,
+			);
+			path = BaconBrotcaster;
+			sourceTree = "<group>";
+		};
+		BBDC56BA1A8A97330007182D /* BaconInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBDC56BB1A8A99290007182D /* JIABaconInformationTVCTests.m */,
+			);
+			name = BaconInformationViewController;
+			sourceTree = "<group>";
+		};
+		BBE326291A816296000C2055 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3262C1A8166B1000C2055 /* AddButcher */,
+				BBE5372C1A8960F4005BC078 /* BaconBrotcaster */,
+				BBDC56BA1A8A97330007182D /* BaconInformationViewController */,
+				BB5EE8D31A8BCC4300F31E16 /* OldRecepies */,
+				BB5EE8D61A8BDE2400F31E16 /* RadarViewController */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		BBE3262C1A8166B1000C2055 /* AddButcher */ = {
+			isa = PBXGroup;
+			children = (
+				BBE3262D1A8166C4000C2055 /* AddButcherTests.m */,
+			);
+			name = AddButcher;
+			sourceTree = "<group>";
+		};
+		BBE5372C1A8960F4005BC078 /* BaconBrotcaster */ = {
+			isa = PBXGroup;
+			children = (
+				BBE5372D1A896146005BC078 /* BaconBrotcasterTests.m */,
+			);
+			name = BaconBrotcaster;
+			sourceTree = "<group>";
+		};
+		BBE81C261A0FA7410005F5CC /* AddButcher */ = {
+			isa = PBXGroup;
+			children = (
+				BB96DE211A13F15B00D610BB /* Cells */,
+				BBE81C271A0FA7A60005F5CC /* AddButcher.h */,
+				BBE81C281A0FA7A60005F5CC /* AddButcher.m */,
+			);
+			path = AddButcher;
+			sourceTree = "<group>";
+		};
+		BBF5BB951A0596C100353C91 /* BaconInformationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BBBDD97E1A06351900D65A4D /* Cells */,
+				BBF5BB961A05970100353C91 /* JIABaconInformationTVC.h */,
+				BBF5BB971A05970100353C91 /* JIABaconInformationTVC.m */,
+			);
+			path = BaconInformationViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BB02390C1A02B9AA00507F4B /* jBacon Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0239151A02B9AA00507F4B /* Build configuration list for PBXNativeTarget "jBacon Tests" */;
+			buildPhases = (
+				7869570BE43F5E0465CE6792 /* [CP] Check Pods Manifest.lock */,
+				BB0239091A02B9AA00507F4B /* Sources */,
+				BB02390A1A02B9AA00507F4B /* Frameworks */,
+				BB02390B1A02B9AA00507F4B /* Resources */,
+				280754B50E36FB4BD489F24B /* [CP] Embed Pods Frameworks */,
+				17DE0B69F73FA1588B499749 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BB0239141A02B9AA00507F4B /* PBXTargetDependency */,
+			);
+			name = "jBacon Tests";
+			productName = "jBacon Tests";
+			productReference = BB02390D1A02B9AA00507F4B /* jBacon Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BB9714CE19CEF67400B7A48B /* jBacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB9714F219CEF67500B7A48B /* Build configuration list for PBXNativeTarget "jBacon" */;
+			buildPhases = (
+				C0D45CE262B5B447B3564DC7 /* [CP] Check Pods Manifest.lock */,
+				BB9714CB19CEF67400B7A48B /* Sources */,
+				BB9714CC19CEF67400B7A48B /* Frameworks */,
+				BB9714CD19CEF67400B7A48B /* Resources */,
+				BB7DE9181A64507500419A5F /* ShellScript */,
+				10F3F6BA46E0D9F4B709534B /* [CP] Embed Pods Frameworks */,
+				76CAD037EC628505B8A99EF8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = jBacon;
+			productName = jBeacon;
+			productReference = BB9714CF19CEF67400B7A48B /* jBacon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BB9714C719CEF67400B7A48B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Developer iOS";
+				TargetAttributes = {
+					BB02390C1A02B9AA00507F4B = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BB9714CE19CEF67400B7A48B;
+					};
+					BB9714CE19CEF67400B7A48B = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = Q79FTA4VEX;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = BB9714CA19CEF67400B7A48B /* Build configuration list for PBXProject "jBacon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BB9714C619CEF67400B7A48B;
+			productRefGroup = BB9714D019CEF67400B7A48B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BB9714CE19CEF67400B7A48B /* jBacon */,
+				BB02390C1A02B9AA00507F4B /* jBacon Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BB02390B1A02B9AA00507F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9714CD19CEF67400B7A48B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBB4B09B1A167B6300E8F7C4 /* initialBaconsIDs.plist in Resources */,
+				BB9714DE19CEF67500B7A48B /* Main.storyboard in Resources */,
+				BB9714E319CEF67500B7A48B /* LaunchScreen.xib in Resources */,
+				BB9714E019CEF67500B7A48B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10F3F6BA46E0D9F4B709534B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jBacon/Pods-jBacon-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		17DE0B69F73FA1588B499749 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jBacon Tests/Pods-jBacon Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		280754B50E36FB4BD489F24B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jBacon Tests/Pods-jBacon Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76CAD037EC628505B8A99EF8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-jBacon/Pods-jBacon-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7869570BE43F5E0465CE6792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7DE9181A64507500419A5F /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "XcodeCoverage/exportenv.sh\n";
+		};
+		C0D45CE262B5B447B3564DC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BB0239091A02B9AA00507F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB5EE8CF1A8BB7D300F31E16 /* ButchersListTVCTests.m in Sources */,
+				BA13F54F1A84E86A00187186 /* JIABaconInformationTests.m in Sources */,
+				BB5EE8D81A8BDE4300F31E16 /* BaconRadarTests.m in Sources */,
+				BBE3262E1A8166C4000C2055 /* AddButcherTests.m in Sources */,
+				BBE5372E1A896146005BC078 /* BaconBrotcasterTests.m in Sources */,
+				BB42DB9E1A718AD500DF26B9 /* JIABaconInformationProviderTests.m in Sources */,
+				BBDC56BC1A8A99290007182D /* JIABaconInformationTVCTests.m in Sources */,
+				BB5EE8D51A8BCC6B00F31E16 /* OldRecepiesTests.m in Sources */,
+				BA05DD031A87F53A00F3B5FF /* JIABluetoothDeviceScannerTests.m in Sources */,
+				BBFAE1EE1A6DAAEE0025B9E4 /* AppDelegateTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB9714CB19CEF67400B7A48B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBBDD9901A067B3600D65A4D /* BaconBrotcaster.m in Sources */,
+				BBBB0CAF1A0A9D3400B06F7C /* JIAOldRecepie.m in Sources */,
+				BBBDD9811A06355700D65A4D /* BaconInformationHeader.m in Sources */,
+				BBBB0CB61A0AB81000B06F7C /* OldRecepieHeaderCell.m in Sources */,
+				BBBDD98C1A06614D00D65A4D /* FryBaconFooterCell.m in Sources */,
+				BBEBAE261A420E3B00504DD2 /* JIAFryBaconValidationResult.m in Sources */,
+				BBE6B8E61A40E14D00463BF9 /* JIAAlertViewControllerFactory.m in Sources */,
+				BB96DE241A13F1C700D610BB /* AddButcherInputCell.m in Sources */,
+				BBF5BB981A05970100353C91 /* JIABaconInformationTVC.m in Sources */,
+				BBE81C291A0FA7A60005F5CC /* AddButcher.m in Sources */,
+				BB02392C1A02EBD400507F4B /* JIABaconInformationProvider.m in Sources */,
+				BB7A4CEA1A5C164E0024D0D7 /* JIABaseViewController.m in Sources */,
+				BB02392F1A02F0E900507F4B /* JIABluetoothDeviceScanner.m in Sources */,
+				BBBDD9851A065E9B00D65A4D /* FryBacon.m in Sources */,
+				BB433BED1A2CF9A4005AFE22 /* JIAButcher.m in Sources */,
+				BB02391E1A02D50100507F4B /* JIAConstants.m in Sources */,
+				BB433BEA1A2CF93E005AFE22 /* ButchersPersistance.m in Sources */,
+				BB9714D819CEF67500B7A48B /* AppDelegate.m in Sources */,
+				BBAB33B51A38D16B000F8DD1 /* NSString+JIAUUIDValidation.m in Sources */,
+				BBF0A0B31A0428D5008182C0 /* JIAQualityView.m in Sources */,
+				BBBB0CB91A0AB84200B06F7C /* OldRecepieFullInfoCell.m in Sources */,
+				BB85B7D61A0805BD00B45DFD /* AddBuster.m in Sources */,
+				BB0239221A02D72F00507F4B /* UIColor+JIABaconColors.m in Sources */,
+				BB7A4CE51A5BED2D0024D0D7 /* JIAInAppPurchaseConstants.m in Sources */,
+				BB433BE71A2CF3DD005AFE22 /* ButchersListTVC.m in Sources */,
+				BB7A4CED1A5C16760024D0D7 /* JIABaseTableViewController.m in Sources */,
+				BB939D261A646DF60090E2E2 /* AddButcherRow.m in Sources */,
+				BB89BD5319CF58880066BBED /* BaconRadar.m in Sources */,
+				BBBB0CAC1A0A9C1E00B06F7C /* JIAOldRecepiesInformationManager.m in Sources */,
+				BBBB0CA81A0A9B0E00B06F7C /* OldRecepies.m in Sources */,
+				BB89BD5619CF589F0066BBED /* SettingsViewController.m in Sources */,
+				BBBDD9891A06613400D65A4D /* FryBaconHeaderCell.m in Sources */,
+				BBD3867D1A04EBC200B8C284 /* JIABaconInformation.m in Sources */,
+				BBF0A0B61A0433A3008182C0 /* JIABaconQualityCell.m in Sources */,
+				BB9714D519CEF67500B7A48B /* main.m in Sources */,
+				BBF5BB941A054E1600353C91 /* JIABaconHeaderCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB0239141A02B9AA00507F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB9714CE19CEF67400B7A48B /* jBacon */;
+			targetProxy = BB0239131A02B9AA00507F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BB9714DC19CEF67500B7A48B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9714DD19CEF67500B7A48B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BB9714E119CEF67500B7A48B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BB9714E219CEF67500B7A48B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BB0239161A02B9AA00507F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FDBC1B53C377E916957CB12 /* Pods-jBacon Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jBacon Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.stocki.lukasz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jBacon.app/jBacon";
+			};
+			name = Debug;
+		};
+		BB0239171A02B9AA00507F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24216A397CC82907D32B0B27 /* Pods-jBacon Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "jBacon Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "pl.stocki.lukasz.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/jBacon.app/jBacon";
+			};
+			name = Release;
+		};
+		BB9714F019CEF67500B7A48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_TEST_COVERAGE_FILES = YES;
+				GCC_INSTRUMENT_PROGRAM_FLOW_ARCS = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB9714F119CEF67500B7A48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_GENERATE_TEST_COVERAGE_FILES = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BB9714F319CEF67500B7A48B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 510FF1B6A6832A6E0DF57744 /* Pods-jBacon.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/jBacon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.stocki.lukasz.jBacon;
+				PRODUCT_NAME = jBacon;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BB9714F419CEF67500B7A48B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B0324FF05DF5892722E0EF44 /* Pods-jBacon.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "$(SRCROOT)/jBacon/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pl.stocki.lukasz.jBacon;
+				PRODUCT_NAME = jBacon;
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BB0239151A02B9AA00507F4B /* Build configuration list for PBXNativeTarget "jBacon Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0239161A02B9AA00507F4B /* Debug */,
+				BB0239171A02B9AA00507F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9714CA19CEF67400B7A48B /* Build configuration list for PBXProject "jBacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9714F019CEF67500B7A48B /* Debug */,
+				BB9714F119CEF67500B7A48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB9714F219CEF67500B7A48B /* Build configuration list for PBXNativeTarget "jBacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB9714F319CEF67500B7A48B /* Debug */,
+				BB9714F419CEF67500B7A48B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BB9714C719CEF67400B7A48B /* Project object */;
+}

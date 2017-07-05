@@ -1,0 +1,27 @@
+PODS:
+  - HexColors (2.3.0)
+  - OCMock (3.4)
+  - TSMessages (0.9.13):
+    - HexColors (~> 2.3.0)
+
+DEPENDENCIES:
+  - OCMock
+  - TSMessages (from `https://github.com/KrauseFx/TSMessages.git`)
+
+EXTERNAL SOURCES:
+  TSMessages:
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+CHECKOUT OPTIONS:
+  TSMessages:
+    :commit: dd843df9a04a756210b2ed51caf1f2b9aafee508
+    :git: https://github.com/KrauseFx/TSMessages.git
+
+SPEC CHECKSUMS:
+  HexColors: 6ad3947c3447a055a3aa8efa859def096351fe5f
+  OCMock: 35ae71d6a8fcc1b59434d561d1520b9dd4f15765
+  TSMessages: eb3cf27b6900684a21bad4fe9ea426e287b8c839
+
+PODFILE CHECKSUM: 3b954e925a0aaf38f29d23f41d460b99072902f4
+
+COCOAPODS: 1.2.1

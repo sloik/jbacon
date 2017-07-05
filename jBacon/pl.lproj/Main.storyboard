@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6250" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Q8B-YJ-nG1">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6244"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="LaO-Ko-GEW">
+            <objects>
+                <tabBarController id="Q8B-YJ-nG1" sceneMemberID="viewController">
+                    <nil key="simulatedBottomBarMetrics"/>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="mrr-gp-YTH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="5OA-EV-F1k" kind="relationship" relationship="viewControllers" id="2XR-KT-QrC"/>
+                        <segue destination="lpB-hQ-5l6" kind="relationship" relationship="viewControllers" id="d82-5R-oZ2"/>
+                        <segue destination="P2E-V1-RF2" kind="relationship" relationship="viewControllers" id="2kY-ea-HAq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwh-6y-DVd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="168" y="486"/>
+        </scene>
+        <!--Bacon Settings-->
+        <scene sceneID="4h5-yx-Zq6">
+            <objects>
+                <viewController id="d0O-mf-1P9" customClass="BaconSettings" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ggE-VC-Ifz"/>
+                        <viewControllerLayoutGuide type="bottom" id="YdT-bq-qWN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CMD-3U-Tn6">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="GOZ-y4-6ak"/>
+                    <connections>
+                        <segue destination="2md-zo-dDW" kind="show" identifier="segueShowBrotcaster" id="o8Q-PM-wZv"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yth-Dl-hof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="-209"/>
+        </scene>
+        <!--Bekon-->
+        <scene sceneID="Gql-Z5-eP1">
+            <objects>
+                <tableViewController id="qhw-0h-FqQ" customClass="BaconRadar" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="OrY-aw-foW">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QualityCell" id="uDY-y3-RXS">
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="uDY-y3-RXS" id="Wew-z4-Qlf">
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="qhw-0h-FqQ" id="a5U-4S-iv6"/>
+                            <outlet property="delegate" destination="qhw-0h-FqQ" id="8zO-J5-K3g"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Bekon" id="P3n-3X-kov">
+                        <barButtonItem key="rightBarButtonItem" title="Dodaj Bekon" id="jMv-BW-Bet">
+                            <connections>
+                                <action selector="addBaconButtonDidTaped:" destination="qhw-0h-FqQ" id="LWa-M2-S2c"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="oTg-DG-svU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1837" y="479"/>
+        </scene>
+        <!--Beacon Help-->
+        <scene sceneID="DfX-ux-svj">
+            <objects>
+                <viewController id="rWi-GI-4KW" customClass="BeaconHelp" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="9Hw-aM-8cw"/>
+                        <viewControllerLayoutGuide type="bottom" id="kls-ii-OCu"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mE7-M5-Jmn">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="mB9-dz-Kvi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FG1-zG-u2f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1842" y="1283"/>
+        </scene>
+        <!--Bacon Brotcaster-->
+        <scene sceneID="5oO-wl-QIz">
+            <objects>
+                <viewController id="2md-zo-dDW" customClass="BaconBrotcaster" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="VwJ-wX-rWY"/>
+                        <viewControllerLayoutGuide type="bottom" id="v7D-61-HhA"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gcQ-pD-dDd">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Meb-jC-apc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2622" y="-209"/>
+        </scene>
+        <!--Configure-->
+        <scene sceneID="GAN-19-9s5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lpB-hQ-5l6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Configure" id="yOm-Bs-3d6"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="A3K-9J-E55">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="d0O-mf-1P9" kind="relationship" relationship="rootViewController" id="gMP-Ml-1ir"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ait-49-mUi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="-209"/>
+        </scene>
+        <!--Bekon-->
+        <scene sceneID="6tj-P4-rA3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5OA-EV-F1k" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Bekon" image="RadarViewTabBarIcon" id="h1N-9I-gjN"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="MgA-jp-FTq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qhw-0h-FqQ" kind="relationship" relationship="rootViewController" id="jSp-1h-zFN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wTt-gk-rNW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="486"/>
+        </scene>
+        <!--Instructions-->
+        <scene sceneID="9Tb-Xa-CBZ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="P2E-V1-RF2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Instructions" id="gtz-rU-sK0"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="vx6-B4-Oft">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="rWi-GI-4KW" kind="relationship" relationship="rootViewController" id="IEV-gC-52N"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CgM-Vx-onW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1010" y="1283"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="RadarViewTabBarIcon" width="25" height="25"/>
+    </resources>
+</document>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="480" height="454"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cDk-Ad-Gez">
+                    <rect key="frame" x="0.0" y="410" width="480" height="44"/>
+                    <items/>
+                </toolbar>
+                <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3pD-6C-R7D">
+                    <rect key="frame" x="0.0" y="0.0" width="480" height="44"/>
+                </navigationBar>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3pD-6C-R7D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="E3a-rr-Khd"/>
+                <constraint firstItem="cDk-Ad-Gez" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="GKH-GS-N3Y"/>
+                <constraint firstAttribute="trailing" secondItem="cDk-Ad-Gez" secondAttribute="trailing" id="Idk-T8-HJ2"/>
+                <constraint firstAttribute="bottom" secondItem="cDk-Ad-Gez" secondAttribute="bottom" id="TRU-TY-Loi"/>
+                <constraint firstAttribute="trailing" secondItem="3pD-6C-R7D" secondAttribute="trailing" id="XEC-bI-Qec"/>
+                <constraint firstItem="3pD-6C-R7D" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="vKO-tA-bDd"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="703" y="556"/>
+        </view>
+    </objects>
+</document>
